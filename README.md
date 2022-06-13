@@ -6,4 +6,4 @@ It consists of files model.py, agents.py, scheduler.py and run.py. The last one 
 
 ABM_classification.ipynb was used to determine the most powerful significant parameters of the model with CatBoost model.
 
-ABM_clustering.ipynb consists of different clustering approach.
+ABM_clustering.ipynb consists of different clustering approaches.
