@@ -1,7 +1,7 @@
 # Agent-based model of financial market
 
 Current ABM of financial market was created by using Mesa framework (https://mesa.readthedocs.io/en/latest/overview.html) 
-and contain four types of agents: noise traders, high-frequency traders, long-term strategy traders and market makers.
+and contain four types of agents: Noise traders, High-frequency traders, Long-term strategy traders and Market Makers.
 All agents described in agents.py as well as it's "step" method for placing orders.
 The stages of model operating are described in model.py.
 The scheduler.py file contains functions which activate different type of agents.
