@@ -57,10 +57,7 @@ def define_pattern_1(price_history, shock_step):
 
 def define_pattern(price_history):
     """
-    Volatility discription
-    1 - decreasing volatility
-    2 - stable volatility
-    3 - increasing volatility
+    Returning values of Bollinger bands width for every fifth step of trading session
     """
     values = []
     for i in range(20, len(price_history), 5):
